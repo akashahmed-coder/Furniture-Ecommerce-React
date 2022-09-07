@@ -1,0 +1,56 @@
+.rating{
+    margin-top: 40px;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-image: url('../../img/img-9.1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ratingDiv {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    right: 400px;
+    top: 200px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ratingDivImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.ratingDivComment{
+    font-size: 22px;
+    opacity: .5;
+    text-align: justify;
+}
+.ratingDivBottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ratingImgAndUser{
+    display: flex;
+    align-items: center;
+}
+.ratingUserNameAndRating{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.RatingUserName{
+    font-size: 2rem;
+}
+.ratingComma{
+    font-size: 5rem;
+    color: orange;
+
+}

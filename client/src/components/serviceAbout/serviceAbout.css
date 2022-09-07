@@ -1,0 +1,29 @@
+.serviceAbout{
+    display: flex;
+    width: 100%;
+    background-color: rgb(237 236 237);
+}
+.serviceAboutWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.perServiceIcon{
+    font-size: 50px !important;
+    margin-right: 20px;
+    opacity: .5;
+}
+.perService{
+    display: flex;
+    align-items: center;
+}
+.perServiceText{
+    color: #999;
+}
+.perServiceTitle{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

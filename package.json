@@ -1,0 +1,26 @@
+{
+  "name": "react_furniture_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "build":"cd client && npm run build",
+    "install-client":"cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "node index.js",
+    "client":"cd client && npm start" 
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashahmed-coder/React_Furniture_Project/issues"
+  },
+  "homepage": "https://github.com/akashahmed-coder/React_Furniture_Project#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}

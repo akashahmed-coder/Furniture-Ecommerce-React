@@ -1,0 +1,117 @@
+.OurAllProduct{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ourAllProductsWrapper{
+    width: 100%;
+}
+.ourProductsTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ourProductsTag{
+    color: orange;
+    font-size: 20px;
+}
+.ourAllProductsTitleAndTag{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.ourProductsTitle{
+    font-size: 3rem;
+}
+.ourPorductsButton{
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.ourProductsBottom{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat( auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.ourProductsCard{
+ width: 250px;
+ padding: 10px;
+box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
+}
+.ourProductscardTop{
+    position: relative;
+}
+.ourProductsCardImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+.checked {
+    color: orange;
+  }
+.fa-star{
+    margin: 5px 5px 5px 0px;
+
+}
+.ourProductsCardbottomTitle{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #555;
+    margin: 5px 0;
+}
+.ourProductsCardbottomText{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.ourProductsCardTag{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.TagActive{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+.ourProductsCardPriceAndButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.ourProductsCardAndButton{
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+}
+.css-bf9wz-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    color: #fff;
+    background-color: orange !important;
+}
+.ourProductspagination{
+    width: fit-content;
+    /* margin-bottom: 20px ; */
+    margin: 30px auto 20px auto;
+}

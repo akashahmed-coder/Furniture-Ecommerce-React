@@ -1,0 +1,48 @@
+.footerWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.footerDivTitle{
+    font-size: 1.5rem;
+    border-bottom: 3px solid orange;
+    padding-bottom: 15px;
+}
+
+.footerDivList{
+    margin-top: 20px;
+}
+.footerDivListItem{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 300;
+    color:#333;
+
+}
+.footerSocial{
+    width: 100%;
+    background-color: rgb(237 236 237)
+
+}
+.footerSocialWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.footerSocialLogo{
+    width: 300px;
+}
+.footerSocialIcons{
+    display: flex;
+}
+.footerSocialIcon{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-left: 15px;
+}
