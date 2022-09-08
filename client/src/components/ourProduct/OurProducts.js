@@ -3,7 +3,7 @@ import './OurProducts.css'
 import img1 from '../../img/img-1.jpg'
 import img2 from '../../img/img-2.jpg'
 import img3 from '../../img/img-3.jpg'
-
+import { Link } from 'react-router-dom'
 
 export default function OurProducts() {
   return (
@@ -21,7 +21,9 @@ export default function OurProducts() {
             <div className='ourProductsBottom'>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img3} alt='' className='ourProductsCardImg'/>
+                            </Link>
                             <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
@@ -40,8 +42,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img2} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -59,8 +64,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img1} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -78,8 +86,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img3} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -97,8 +108,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img2} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -116,8 +130,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img3} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link> 
+                           <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -135,8 +152,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img1} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
@@ -154,8 +174,11 @@ export default function OurProducts() {
                     </div>
                     <div className='ourProductsCard'>
                         <div className='ourProductscardTop'>
+                            <Link to='/details/product'>
                             <img src={img2} alt='' className='ourProductsCardImg'/>
-                            <span className='ourProductsCardTag'>New</span>
+                          
+                          </Link>  
+                          <span className='ourProductsCardTag'>New</span>
                         </div>
                         <div className='ourProductscardBottom'>
                             <span class="fa fa-star checked"></span>
