@@ -1,0 +1,39 @@
+
+.BottomDescReview{
+    margin: 15px 0;
+  }
+  .perReviewTop{
+  margin: 10px 0;
+  }
+  .perReviewUserandRating{
+    display: flex;
+    align-items: center;
+  }
+  .perRiviewUserAndTime{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .perReviewUserImg{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  .perRiviewUsername{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .userRatingtext{
+    font-size: 13px;
+    margin-left: 5px;
+    color: #777;
+  }
+  .ratingTime{
+    color: #555;
+    font-family: 700;
+  }
+  .perReviewBottom{
+    font-size: 18px;
+    color: #555;
+  }

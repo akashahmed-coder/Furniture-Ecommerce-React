@@ -11,7 +11,7 @@ import img9 from '../../img/img-9.1.jpg'
 import img10 from '../../img/img-9.jpg'
 import img11 from '../../img/img-14.jpg'
 import img12 from '../../img/img-15.jpg'
-import {Pagination, Select , MenuItem , FormControl , InputLabel} from '@mui/material'
+import {Rating,Pagination, Select , MenuItem , FormControl , InputLabel} from '@mui/material'
 import './ourAllProduct.css'
 import { Link } from 'react-router-dom'
 
@@ -55,11 +55,7 @@ export default function OurAllProduct() {
                               <span className='ourProductsCardTag'>New</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                          <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -76,11 +72,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                          <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -97,11 +89,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -118,11 +106,7 @@ export default function OurAllProduct() {
                               <span className='ourProductsCardTag'>New</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -139,11 +123,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -160,11 +140,7 @@ export default function OurAllProduct() {
                               <span className='ourProductsCardTag'>New</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -181,11 +157,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}} name="half-rating" defaultValue={2.5} precision={0.5} readOnly  />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -202,11 +174,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -223,11 +191,7 @@ export default function OurAllProduct() {
                               <span className='ourProductsCardTag'>New</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -244,11 +208,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -265,11 +225,7 @@ export default function OurAllProduct() {
                               <span className='ourProductsCardTag'>New</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
@@ -286,11 +242,7 @@ export default function OurAllProduct() {
                               <span className='TagActive'>Sale</span>
                           </div>
                           <div className='ourProductscardBottom'>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star checked"></span>
-                              <span class="fa fa-star"></span>
-                              <span class="fa fa-star"></span>
+                            <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
                           <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>

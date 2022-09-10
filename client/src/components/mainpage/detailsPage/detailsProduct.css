@@ -1,0 +1,108 @@
+
+.detailHeader{
+    width: 100%;
+    height: 300px;
+    background: url("../../../img/img-23.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.detailText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 20px;
+}
+.detailText h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+.detailText p {
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.detailsProductWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+    flex-wrap: wrap;
+    
+}
+.detailsProductImg{
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+    
+}
+.detailsProductDetails{
+    width: 500px;
+    margin-left: 20px;
+}
+.detailsProductTitle{
+ font-size: 2rem;
+}
+.detailsProductPrice{
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 400;
+
+}
+.detailsProductDescription{
+    font-size: 20px;
+    color: #555;
+    margin: 10px 0;
+}
+.detailsProductQuantityandSize{
+    display: flex;
+    margin: 10px 0;
+}
+.quantityText{
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.quantityButton{
+    height:55px;
+    width: 55px;
+    border: 1px solid #eee;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.quantityCounter{
+    margin: 0 10px;
+}
+.productsSize{
+    margin-left: 20px;
+}
+.buttonBuyandAddtoCart{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.buyNow{
+   border: none;
+   padding: 15px 30px;
+   font-size: 20px;
+   background-color: orange;
+   color: white;
+
+}
+.addTocartButton{
+    height: 40px;
+}
+.detailProductBottomWrapper{
+    width: 100%;
+    display: flex;
+    margin: 70px 0;
+}

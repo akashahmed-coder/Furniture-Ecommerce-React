@@ -1,0 +1,39 @@
+.bottomDescriptionProduct{
+    width: 100%;
+    flex: 9;
+}
+.ButtomDescButtons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ButtomDescButton{
+    border: none;
+    background-color: #eee;
+    color: #555;
+    text-transform: uppercase;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bottomDescripions{
+ margin: 15px 0;
+}
+.ButtomDescButton:focus{
+  color: orange;
+}
+.bottomDescripionsText{
+  color: #777;
+  font-size: 20px;
+}
+.bottomDescriptionsOverview{
+  margin: 15px 0;
+}
+.bottomDescriptionsTitle{
+  font-size: 24px;
+  color: #555;
+  letter-spacing: 1px;
+}
