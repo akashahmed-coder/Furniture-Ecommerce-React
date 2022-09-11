@@ -1,3 +1,40 @@
 .sideRatingCount{
     flex: 3;
 }
+.sideRatingCount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sideRatingCountTop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.sideRatingCountBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sideRatingCountBottomPerStar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.sideRatingCountTotal{
+    font-size:40px;
+    letter-spacing: 2px;
+    color: #777;
+}
+.overAllReview{
+    font-size: 15px;
+    color: #777;
+    margin-top: 5px;
+}
+.sideRatingCountBottomPerStar p{
+    color: #777;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
