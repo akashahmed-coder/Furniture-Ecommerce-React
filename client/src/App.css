@@ -8,3 +8,9 @@ a{
   text-decoration: none;
   color: #ddd;
 }
+button{
+  cursor: pointer;
+}
+li{
+  cursor: pointer;
+}

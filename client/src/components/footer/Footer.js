@@ -4,6 +4,7 @@ import img10 from '../../img/img-10.png'
 import img11 from '../../img/img-11.png'
 import img12 from '../../img/img-12.jpg'
 import logo from '../../img/logo-1.png'
+import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <div className='footer'>
@@ -65,9 +66,9 @@ export default function Footer() {
                     <div className='footerSocialWrapper'>
                         <img className='footerSocialLogo' src={logo} alt=""/>
                         <div className='footerSocialIcons'>
-                            <img className='footerSocialIcon' src={img12} alt=""  />
-                            <img className='footerSocialIcon' src={img11} alt=""  />
-                            <img className='footerSocialIcon' src={img10} alt="" />
+                          <Link to="/"  className="fa fa-facebook"></Link>
+                          <Link to="/"  className="fa fa-twitter"></Link>
+                          <Link to="/"  className="fa fa-linkedin"></Link>
                         </div>
                     </div>
                     

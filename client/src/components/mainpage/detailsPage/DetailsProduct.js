@@ -6,6 +6,7 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import Navber from '../navber/Navber'
 import BottomDescriptionProduct from '../../BottomDesciptionProduct/BottomDescriptionProduct';
 import SideRatingCount from '../../SideRatingCount/SideRatingCount'
+import Footer from '../../footer/Footer'
 export default function DetailsProduct() {
   return (
     <>
@@ -75,6 +76,7 @@ export default function DetailsProduct() {
         </div>
       </div>
     </div>
+    <Footer />
     </>
   )
 }

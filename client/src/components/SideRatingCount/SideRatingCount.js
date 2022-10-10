@@ -37,6 +37,7 @@ export default function SideRatingCount() {
             <p>(8)</p>
           </div>
         </div>
+        <button className='writeAreview'>Write a review</button>
     </div>
   )
 }
