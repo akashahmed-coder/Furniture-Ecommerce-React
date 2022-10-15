@@ -1,7 +1,7 @@
 import React from 'react'
 import './satisfications.css'
 import {Check} from '@mui/icons-material';
-import detailImg from '../../img/img-16.jpg'
+import detailImg from '../../img/img-16.webp'
 
 export default function Satisfications() {
   return (

@@ -1,9 +1,6 @@
 import React from 'react'
 import './footer.css'
-import img10 from '../../img/img-10.png'
-import img11 from '../../img/img-11.png'
-import img12 from '../../img/img-12.jpg'
-import logo from '../../img/logo-1.png'
+import logo from '../../img/logo-1.webp'
 import { Link } from 'react-router-dom'
 export default function Footer() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import img5 from '../../img/img-5.jpg'
+import img5 from '../../img/img-5.webp'
 import './woodenbed.css'
 
 export default function WoodenBed() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import './detailsProduct.css'
-import detailImg from '../../../img/img-16.jpg'
+import detailImg from '../../../img/img-16.webp'
 import { Rating,Select , MenuItem , FormControl , InputLabel} from '@mui/material'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import Navber from '../navber/Navber'

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Logo1 from '../../../img/logo-1.png'
+import Logo1 from '../../../img/logo-1.webp'
 import Cart from '../../../img/cart.svg.png'
 
 export default function Navber() {

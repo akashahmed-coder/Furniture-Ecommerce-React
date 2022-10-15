@@ -1,6 +1,6 @@
 import React from 'react'
-import imgHome from '../../img/img-3.jpg'
-import imgAbout from '../../img/img-6.jpeg'
+import imgHome from '../../img/img-3.webp'
+import imgAbout from '../../img/img-6.webp'
 export default function SectionOne({about}) {
   return (
     <div>

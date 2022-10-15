@@ -1,7 +1,7 @@
 import React from 'react'
 import './Review.css'
 import { Rating } from '@mui/material';
-import RatingUserImg from '../../img/img-8.jpg'
+import RatingUserImg from '../../img/img-8.webp'
 
 export default function Review() {
   return (

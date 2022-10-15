@@ -1,5 +1,5 @@
 import React from 'react'
-import img8 from '../../img/img-8.jpg'
+import img8 from '../../img/img-8.webp'
 import './rating.css'
 export default function Rating() {
   return (

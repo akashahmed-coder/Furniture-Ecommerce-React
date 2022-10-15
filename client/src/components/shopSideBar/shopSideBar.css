@@ -36,7 +36,7 @@ hr{
     height: 500px;
     background-image:
     linear-gradient(to top, #000000c7,rgb(92 16 74 / 68%)),
-    url('../../img/img-9.jpg');
+    url('../../img/img-9.webp');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -48,7 +48,7 @@ hr{
     height: 300px;
     background-image:
     linear-gradient(to top, #000000c7,rgb(16 25 92 / 68%)),
-    url('../../img/img-13.jpg');
+    url('../../img/img-13.webp');
     background-position: center;
     background-size: cover;
     display: flex;

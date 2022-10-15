@@ -2,9 +2,9 @@ import React from 'react'
 import './cart.css'
 import Rating from '@mui/material/Rating'
 import { Close } from '@mui/icons-material'
-import cartProductImg1 from '../../../img/img-7.jpg'
-import cartProductImg2 from '../../../img/img-9.1.jpg'
-import cartProductImg3 from '../../../img/img-9.jpg'
+import cartProductImg1 from '../../../img/img-7.webp'
+import cartProductImg2 from '../../../img/img-9.1.webp'
+import cartProductImg3 from '../../../img/img-9.webp'
 import Footer from '../../footer/Footer'
 
 export default function Cart() {
