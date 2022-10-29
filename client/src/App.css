@@ -11,6 +11,9 @@ a{
 button{
   cursor: pointer;
 }
+button:hover{
+  opacity: 0.9;
+}
 li{
   cursor: pointer;
 }
