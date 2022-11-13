@@ -17,7 +17,7 @@ export default function OurProducts() {
                     <span className='ourProductsTag'>Shopping Store</span>
                     <h2 className='ourProductsTitle'>Our Products</h2>                   
                 </div>
-                <button className='ourPorductsButton'>View all products</button>
+                <Link to="/shop" className='ourPorductsButton'>View all products</Link>
             </div>
             <div className='ourProductsBottom'>
                     <div className='ourProductsCard'>
@@ -33,7 +33,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ export default function OurProducts() {
                         <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                         <div className='ourProductsCardPriceAndButton'>
                                 <span className='ourProductsCardPrice'>$120.00</span>
-                                <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                         </div>
                         </div>
                     </div>

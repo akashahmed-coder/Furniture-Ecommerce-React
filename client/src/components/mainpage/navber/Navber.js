@@ -19,7 +19,7 @@ export default function Navber() {
                 <li><Link to="/contact">Contact Us</Link></li>
                 <li>
                       <div className="cart-icon">
-                      <span>0</span>
+                      <span>3</span>
                       <Link to="/cart">
                       <img src={Cart} alt='' width='30' />
                       </Link>

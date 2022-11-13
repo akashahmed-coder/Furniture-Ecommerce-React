@@ -196,9 +196,12 @@
 .cartCustomerInfo{
     margin-top: 20px;
 }
-.cartCustomerInfoTitle{
-    font-weight: 400;
+.cartCustomerInfoTitle {
+    font-weight: bold;
+    font-size: 25px;
     margin-bottom: 20px;
+    color: #555;
+    text-transform: uppercase;
 }
 .cartCustomerDetails{
     display: flex;
@@ -206,7 +209,6 @@
     align-items: center;
     border: 1px solid #ddd;
     padding: 10px;
-    height: 130px;
 }
 .cartCustomerImg{
     width: 100px;
@@ -221,7 +223,12 @@
 }
 .cartCustomerName{
     font-size: 20px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    color: #777;
+}
+.cartCustomerEmail{
+    color: #777;
+    
 }
 .cartCustomerButton{
     font-size: 18px;
@@ -235,7 +242,8 @@
     border: 1px solid #ddd;
     padding: 10px;
     font-size: 18px;
-    margin-right: 5px;
+    margin: 5px 5px 5px 0;
+    
 }
 .deliveryAdress{
     margin: 20px 0;
@@ -249,9 +257,17 @@
 }
 .deliveryAdressTitle{
     margin-bottom: 10px;
+    color: #555;
 }
 .deliveryAdressDiv span{
     font-size: 18px;
     margin-right: 10px;
     text-transform: capitalize;
+    color: #777;
+}
+.cartCustomerProduct{
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
 }

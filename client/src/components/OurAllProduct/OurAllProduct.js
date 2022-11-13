@@ -60,7 +60,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -77,7 +77,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -94,7 +94,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -111,7 +111,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -128,7 +128,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -145,7 +145,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -162,7 +162,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -179,7 +179,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -196,7 +196,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -213,7 +213,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -230,7 +230,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
@@ -247,7 +247,7 @@ export default function OurAllProduct() {
                           <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
                           <div className='ourProductsCardPriceAndButton'>
                                   <span className='ourProductsCardPrice'>$120.00</span>
-                                  <button className='ourProductsCardAndButton'>Add to Cart</button>
+                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
                           </div>
                           </div>
                       </div>
