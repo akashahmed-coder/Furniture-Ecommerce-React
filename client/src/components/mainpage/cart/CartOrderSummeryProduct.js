@@ -19,9 +19,9 @@ function CartOrderSummeryProduct() {
                         Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator
                         </p>
                         <div className='quantityButtonAndCounter'>
-                        <button className='CartIncreaseButton'>+</button>
-                        <span className='CartCounter'>1</span>
                         <button className='CartIncreaseButton'>-</button>
+                        <span className='CartCounter'>1</span>
+                        <button className='CartIncreaseButton'>+</button>
                         </div>
                     </div>
                     <div className='cartPriceAndStatus'>
@@ -41,9 +41,9 @@ function CartOrderSummeryProduct() {
                         Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator
                         </p>
                         <div className='quantityButtonAndCounter'>
-                        <button className='CartIncreaseButton'>+</button>
-                        <span className='CartCounter'>1</span>
                         <button className='CartIncreaseButton'>-</button>
+                        <span className='CartCounter'>1</span>
+                        <button className='CartIncreaseButton'>+</button>
                         </div>
                     </div>
                     <div className='cartPriceAndStatus'>
@@ -63,9 +63,9 @@ function CartOrderSummeryProduct() {
                         Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator
                         </p>
                         <div className='quantityButtonAndCounter'>
-                        <button className='CartIncreaseButton'>+</button>
-                        <span className='CartCounter'>1</span>
                         <button className='CartIncreaseButton'>-</button>
+                        <span className='CartCounter'>1</span>
+                        <button className='CartIncreaseButton'>+</button>
                         </div>
                     </div>
                     <div className='cartPriceAndStatus'>

@@ -1,0 +1,32 @@
+.shopSideBar{
+    /* background-color: rgb(237 236 237); */
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.shopSideBarTop{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.shopSideBarItems{
+    margin: 0;
+    padding: 0;
+}
+.shopSideBarTitle{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.shopSideBarItem {
+    list-style: none;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+}
+hr{
+    width: 80%; 
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+
+}
+

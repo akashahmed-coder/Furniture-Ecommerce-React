@@ -1,27 +1,26 @@
-.shopSideBar{
+.blogSideBar{
     /* background-color: rgb(237 236 237); */
     padding: 20px;
     margin-right: 10px;
 }
 
-.shopSideBarTop{
+.blogSideBarTop{
     width: 100%;
     margin-bottom: 40px;
 }
-.shopSideBarItems{
+.blogSideBarItems{
     margin: 0;
     padding: 0;
 }
-.shopSideBarTitle{
+.blogSideBarTitle{
     font-size: 2rem;
     margin-bottom: 10px;
 }
-.shopSideBarItem{
+.blogSideBarItem {
     list-style: none;
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 16px;
+    margin: 10px 0;
     color: #555;
-
 }
 hr{
     width: 80%; 
@@ -31,7 +30,7 @@ hr{
 
 }
 
-.shopSideBarAd1{
+.blogSideBarAd1{
     width: 100%;
     height: 500px;
     background-image:
@@ -43,7 +42,7 @@ hr{
     align-items: center;
     justify-content: center;
 }
-.shopSideBarAd2{
+.blogSideBarAd2{
     width: 100%;
     height: 300px;
     background-image:
@@ -61,7 +60,7 @@ hr{
     color: white;
 }
 .sideBarAdTag{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 300;
 }
 .sideBarAdTitle{

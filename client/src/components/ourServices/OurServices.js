@@ -18,7 +18,7 @@ export default function OurServices() {
                         <span className='ourProductsTag'>Shopping Store</span>
                         <h2 className='ourProductsTitle'>Buy Trending Furniture</h2>                   
                     </div>
-                    <button className='ourPorductsButton'>View all products</button>
+                    <Link to="/shop" className='ourPorductsButton'>View all products</Link>
                 </div>
             <div className='ourServicesBottom'>
                 <div className='ourServicesCard'>

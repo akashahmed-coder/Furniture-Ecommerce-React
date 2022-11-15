@@ -1,0 +1,92 @@
+.OurAllProductHeader{
+    width: 100%;
+    height: 500px;
+    background: url("../../../img/img-23.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+.ourAllPrductText{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 20px;
+}
+.ourAllPrductText h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+.ourAllPrductText p {
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.shopProducts{
+    padding: 100px 0;
+}
+.shopProductsWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.shopProductsLeft{
+    flex: 3;
+}
+.shopProductsRight{
+    flex: 9;
+}
+.blogpageAds{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.shopSideBarAd1{
+    width: 100%;
+    height: 200px;
+    background-image:
+    linear-gradient(to top, #000000c7,rgb(92 16 74 / 68%)),
+    url('../../../img/img-9.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.shopSideBarAd2{
+    width: 100%;
+    height: 200px;
+    background-image:
+    linear-gradient(to top, #000000c7,rgb(16 25 92 / 68%)),
+    url('../../../img/img-13.webp');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.sideBarAdText{
+    padding: 20px;
+    color: white;
+}
+.sideBarAdTag{
+    font-size: 20px;
+    font-weight: 300;
+}
+.sideBarAdTitle{
+    font-size: 30px;
+}
+.sideBarAdButton{
+    border: none;
+    background-color: transparent;
+    color: orange;
+    font-size: 20px;
+    
+}
