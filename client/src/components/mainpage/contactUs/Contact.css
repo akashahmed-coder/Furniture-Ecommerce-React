@@ -1,0 +1,48 @@
+.contactWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.contactLeftTop{
+    margin-bottom: 20px;
+}
+.contactLeftTopTag{
+    color: orange;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.contactLeft{
+    flex: 6;
+    padding: 10px;
+    
+}
+.contactRight{
+    flex: 6;
+    padding: 10px;
+    min-width: 400px;
+}
+.contactform{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+.formInputGroup{
+    margin: 10px 0;
+}
+.contactLeftBottomInputLabel{
+    display: block;
+    color: #777;
+    font-size: 15px;
+}
+.contactLeftBottomInput{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+}

@@ -32,7 +32,22 @@ export default function ShopSideBar() {
                 <li className='shopSideBarItem'>RFL Funiture</li>
               </ul>
         </div>
-       
+       <div className='shopSIdeBarBottom'>
+       <div className='shopSideBarAd1'>
+              <div className='sideBarAdText'>
+                <span className='sideBarAdTag'>Festival Offer</span>
+                <h4 className='sideBarAdTitle'>Up To 20%</h4>
+                <button className='sideBarAdButton'>Shop Now</button>
+              </div>
+            </div>
+            <div className='shopSideBarAd2'>
+              <div className='sideBarAdText'>
+                <span className='sideBarAdTag'>Winter Offer</span>
+                <h4 className='sideBarAdTitle'>Up To 26%</h4>
+                <button className='sideBarAdButton'>Shop Now</button>
+              </div>
+            </div>
+       </div>
     </div>
   )
 }

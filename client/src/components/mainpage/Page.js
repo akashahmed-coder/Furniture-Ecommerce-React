@@ -6,7 +6,8 @@ import NotFound from './NotFound'
 import Shop from './shop/Shop'
 import Cart from "./cart/Cart"
 import DetailsProduct from './detailsPage/DetailsProduct'
-import { Blog } from './blog/Blog'
+import  Blog  from './blog/Blog'
+import  Contact  from './contactUs/Contact'
 
 export default function Page() {
   return (
@@ -17,6 +18,7 @@ export default function Page() {
         <Route path='/shop' element={<Shop/>} /> 
         <Route path='/details/product' element={<DetailsProduct/>} /> 
         <Route path='/blog' element={<Blog/>} /> 
+        <Route path='/contact' element={<Contact/>} /> 
         <Route path='/cart' element={<Cart/>} /> 
         <Route path='/cart/:id' element={<Cart/>} />
         <Route path='*' element={<NotFound/>}/>

@@ -46,7 +46,7 @@
     align-items: center;
     margin-bottom: 20px;
 }
-.shopSideBarAd1{
+.blogSideBarAd1{
     width: 100%;
     height: 200px;
     background-image:
@@ -59,7 +59,7 @@
     justify-content: center;
     margin: 0 20px;
 }
-.shopSideBarAd2{
+.blogSideBarAd2{
     width: 100%;
     height: 200px;
     background-image:
@@ -72,7 +72,7 @@
     justify-content: center;
     margin: 0 20px;
 }
-.sideBarAdText{
+.shopBarAdText{
     padding: 20px;
     color: white;
 }

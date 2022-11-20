@@ -43,9 +43,9 @@
 .blogCard{
     width: 200px;
     padding: 10px;
-    box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
+    box-shadow: 1px 4px 34px -6px rgba(133,133,133,0.75);
+    -webkit-box-shadow: 1px 4px 34px -6px rgba(133,133,133,0.75);
+    -moz-box-shadow: 1px 4px 34px -6px rgba(133,133,133,0.75);
 }
 .blogCardImg{
     width: 100%;
@@ -60,72 +60,7 @@
     margin: 5px 0;
     color: #aaa;
 }
-/* .ourProductsCard{
- width: 250px;
- padding: 10px;
-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
--webkit-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 0px 36px -18px rgba(0,0,0,0.75);
-}
-.ourProductscardTop{
-    position: relative;
-}
-.ourProductsCardImg{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-}
-.checked {
-    color: orange;
-  }
-.fa-star{
-    margin: 5px 5px 5px 0px;
 
-}
-.ourProductsCardbottomTitle{
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #555;
-    margin: 5px 0;
-}
-.ourProductsCardbottomText{
-    font-size: 15px;
-    margin-bottom: 5px;
-}
-.ourProductsCardTag{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    background-color: red;
-    color: white;
-    padding: 5px 10px;
-    font-weight: 500;
-}
-.TagActive{
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    background-color: orange;
-    color: white;
-    padding: 5px 10px;
-    font-weight: 500;
-}
-.ourProductsCardPriceAndButton{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-}
-.ourProductsCardAndButton{
-    border: none;
-    padding: 10px 20px;
-    font-weight: bold;
-    background-color: orange;
-    color: white;
-    border-radius: 5px;
-} */
 .css-bf9wz-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
     color: #fff;
     background-color: orange !important;

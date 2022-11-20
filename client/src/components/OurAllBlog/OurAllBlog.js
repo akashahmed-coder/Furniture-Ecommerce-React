@@ -1,17 +1,13 @@
 import React from 'react'
-import img1 from '../../img/img-1.webp'
-import img2 from '../../img/img-2.webp'
-import img3 from '../../img/img-3.webp'
-import img4 from '../../img/img-4.webp'
-import img5 from '../../img/img-5.webp'
-import img6 from '../../img/img-6.webp'
-import img7 from '../../img/img-7.webp'
-import img8 from '../../img/img-13.webp'
-import img9 from '../../img/img-9.1.webp'
-import img10 from '../../img/img-9.webp'
-import img11 from '../../img/img-14.webp'
-import img12 from '../../img/img-15.webp'
-import {Rating,Pagination, Select , MenuItem , FormControl , InputLabel} from '@mui/material'
+import img1 from '../../img/img-26.webp'
+import img2 from '../../img/img-35.webp'
+import img3 from '../../img/img-34.webp'
+import img4 from '../../img/img-33.webp'
+import img5 from '../../img/img-32.webp'
+import img6 from '../../img/img-31.webp'
+import img7 from '../../img/img-30.webp'
+import img8 from '../../img/img-27.webp'
+import {Pagination} from '@mui/material'
 import './ourAllBlog.css'
 import { Link } from 'react-router-dom'
 
@@ -49,7 +45,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img2} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -61,7 +57,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img3} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -73,7 +69,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img4} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -85,7 +81,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img5} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -97,7 +93,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img6} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -109,7 +105,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img7} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>
@@ -121,7 +117,7 @@ export default function OurAllProduct() {
                  </div>
                  <div className='blogCard'>
                     <div className='blogCardTop'>
-                        <img src={img1} alt="" className='blogCardImg' />
+                        <img src={img8} alt="" className='blogCardImg' />
                     </div>
                     <div className='blogCardBottom'>
                         <h4 className='blogCardTitle'>What is Lorem Ipsum</h4>

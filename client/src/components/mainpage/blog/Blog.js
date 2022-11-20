@@ -5,7 +5,7 @@ import Rating from '../../rating/Rating'
 import Footer from '../../footer/Footer'
 import OurAllBlog from "../../OurAllBlog/OurAllBlog"
 import BlogSideBar from '../../blogSidebar/BlogSideBar'
-export const Blog = () => {
+export default function Blog () {
   return (
     <div>
          <div className='OurAllProductHeader'> 
@@ -21,14 +21,14 @@ export const Blog = () => {
         <div className='shopProducts'>
         <div className='container'>
           <div className='blogpageAds'>
-            <div className='shopSideBarAd1'>
+            <div className='blogSideBarAd1'>
               <div className='sideBarAdText'>
                 <span className='sideBarAdTag'>Festival Offer</span>
                 <h4 className='sideBarAdTitle'>Up To 20%</h4>
                 <button className='sideBarAdButton'>Shop Now</button>
               </div>
             </div>
-            <div className='shopSideBarAd2'>
+            <div className='blogSideBarAd2'>
               <div className='sideBarAdText'>
                 <span className='sideBarAdTag'>Winter Offer</span>
                 <h4 className='sideBarAdTitle'>Up To 26%</h4>
