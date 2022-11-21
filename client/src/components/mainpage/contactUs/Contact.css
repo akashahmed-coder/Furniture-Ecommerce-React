@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 50px 0;
     
 }
 .contactLeftTop{
@@ -14,24 +15,19 @@
     margin-bottom: 10px;
 }
 .contactLeft{
-    flex: 6;
     padding: 10px;
+    max-width: 500px;
+    min-width: 450px;
     
 }
-.contactRight{
-    flex: 6;
-    padding: 10px;
-    min-width: 400px;
-}
+
 .contactform{
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
- 
+    flex-wrap: wrap; 
 }
 .formInputGroup{
-    margin: 10px 0;
+    margin: 10px 10px;
 }
 .contactLeftBottomInputLabel{
     display: block;
@@ -45,4 +41,50 @@
     outline: none;
     padding: 5px;
     margin-top: 5px;
+}
+.contactLeftBottomtextbox{
+    border: 1px solid #ddd;
+    outline: none;
+    padding: 5px;
+    margin-top: 5px;
+}
+.submitContactButton{
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+}
+.contactRight{
+    max-width: 410px;
+    min-width: 410px;
+    display: flex;
+    flex: 6;
+    background-color: #ddd;
+    padding: 10px 20px;
+}
+.contactRightHeading{
+    font-size: 25px;
+    color: #777;
+    margin-bottom: 20px;
+}
+.contactRightIconAndItem{
+    display: flex;
+    align-items: flex-start;
+    margin: 30px 0;
+}
+.contactRightIcon{
+    font-size: 50px !important;
+    background-color: white;
+    margin: 0 10px;
+    padding: 5px;
+}
+.contactRightTitle{
+    font-size: 20px;
+    color: #333;
+}
+.contactRightItemDescription{
+    font-size: 15px;
+    color: #555 ;
 }

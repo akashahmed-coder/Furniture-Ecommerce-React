@@ -1,24 +1,15 @@
 import React from 'react'
 import "./shop.css"
-import Navber from '../navber/Navber'
 import Rating from '../../rating/Rating'
 import Footer from '../../footer/Footer'
 import OurAllProduct from '../../OurAllProduct/OurAllProduct'
 import ShopSideBar from '../../shopSideBar/ShopSideBar'
+import Header from '../header/Header'
 
 export default function Shop() {
   return (
     <>
-       <div className='OurAllProductHeader'> 
-        <Navber/>
-        <div className='container'>
-            <div className='ourAllPrductText'>
-            <p>Save This Weekend</p>
-            <h1>Our Products</h1>
-            </div>
-            
-        </div>
-        </div>
+       <Header p="Save This Weekend" H="Shop"/>
         <div className='shopProducts'>
         <div className='container'>
             <div className='shopProductsWrapper'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./blog.css"
-import Navber from '../navber/Navber'
+import Header from "../header/Header"
 import Rating from '../../rating/Rating'
 import Footer from '../../footer/Footer'
 import OurAllBlog from "../../OurAllBlog/OurAllBlog"
@@ -8,16 +8,7 @@ import BlogSideBar from '../../blogSidebar/BlogSideBar'
 export default function Blog () {
   return (
     <div>
-         <div className='OurAllProductHeader'> 
-        <Navber/>
-        <div className='container'>
-            <div className='ourAllPrductText'>
-            <p>Save This Weekend</p>
-            <h1>Our Products</h1>
-            </div>
-            
-        </div>
-        </div>
+        <Header p="Save This Weekend" H="Blog"/>
         <div className='shopProducts'>
         <div className='container'>
           <div className='blogpageAds'>

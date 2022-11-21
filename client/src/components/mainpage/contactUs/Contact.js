@@ -1,10 +1,13 @@
 import React from 'react'
 import "./Contact.css"
 import {LocationOn} from '@mui/icons-material'
+import Header from '../header/Header'
+import Footer from '../../footer/Footer'
 
 export default function Contact () {
   return (
     <div className='contact'>
+      <Header p={``} H={`Contact Us`}/>
         <div className='container'>
           <div className='contactWrapper'>
           <div className='contactLeft'>
@@ -35,19 +38,20 @@ export default function Contact () {
                         <textarea type="text" className='contactLeftBottomtextbox' rows={5} cols={50} placeholder='Type your message here'></textarea>
                        </div>
                    </form>
+                   <button className='submitContactButton'>Submit</button>
                </div>
             </div>
             <div className='contactRight'>
-               <h3 className='contactRightTitle'></h3>
                <div className='contactRigthInfo'>
+               <h3 className='contactRightHeading'>Contact Us</h3>
                  <div className='contactRightIconAndItem'>
-                   <LocationOn className='contactRightIcon'/>
+                   <LocationOn className='contactRightIcon' fontSize='50px' />
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
                       Adress
                     </h4>
                     <p className='contactRightItemDescription'>
-                      76/2 Maniknagar Miazan Lane, Wari Dhaka-1203
+                      76/2 Maniknagar, Wari Dhaka-1203
                     </p>
                   </div>
                     
@@ -57,10 +61,10 @@ export default function Contact () {
                    <LocationOn className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
-                      Adress
+                      Phone
                     </h4>
                     <p className='contactRightItemDescription'>
-                      76/2 Maniknagar Miazan Lane, Wari Dhaka-1203
+                      +8801886351200
                     </p>
                   </div>
                     
@@ -69,10 +73,10 @@ export default function Contact () {
                    <LocationOn className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
-                      Adress
+                      Gmail
                     </h4>
                     <p className='contactRightItemDescription'>
-                      76/2 Maniknagar Miazan Lane, Wari Dhaka-1203
+                     ahmefakash3@gmail.com
                     </p>
                   </div>
                     
@@ -81,10 +85,10 @@ export default function Contact () {
                    <LocationOn className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
-                      Adress
+                      Office
                     </h4>
                     <p className='contactRightItemDescription'>
-                      76/2 Maniknagar Miazan Lane, Wari Dhaka-1203
+                      Dhaka, Bangladesh
                     </p>
                   </div>
                     
@@ -94,6 +98,7 @@ export default function Contact () {
             </div>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }

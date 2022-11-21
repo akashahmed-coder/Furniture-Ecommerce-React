@@ -7,20 +7,13 @@ import Navber from '../navber/Navber'
 import BottomDescriptionProduct from '../../BottomDesciptionProduct/BottomDescriptionProduct';
 import SideRatingCount from '../../SideRatingCount/SideRatingCount'
 import Footer from '../../footer/Footer'
+import Header from '../header/Header';
+import { Link } from 'react-router-dom';
 export default function DetailsProduct() {
   return (
     <>
     <div className='detailsProduct'>
-        <div className='detailHeader'> 
-        <Navber/>
-        <div className='container'>
-            <div className='detailText'>
-            <p>Save This Weekend</p>
-            <h1>Product Details</h1>
-            </div>
-            
-        </div>
-        </div>
+       <Header p="Save This Weekend" H="product Details"/>
        <div className='container'>
            <div className='detailsProductWrapper'>
              <img className='detailsProductImg' src={detailImg}/>
@@ -62,7 +55,9 @@ export default function DetailsProduct() {
                </div>
                <div className='buttonBuyandAddtoCart'>
                   <button className='buyNow'>Buy Now</button>
+                  <Link to="/cart">
                   <ShoppingCartCheckoutIcon style={{fontSize:"50px",color:"#555",marginLeft:"10px"}}/>
+                  </Link>
                </div>
              </div>
            </div>

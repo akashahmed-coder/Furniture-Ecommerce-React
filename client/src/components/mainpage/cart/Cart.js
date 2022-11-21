@@ -1,24 +1,16 @@
 import React, { useState } from 'react'
 import './cart.css'
 import Footer from '../../footer/Footer'
-import Navber from '../navber/Navber'
 import { CartOrderSummery } from './CartOrderSummery'
 import CartCustomerInformation from './CartCustomerInformation'
 import { useParams } from 'react-router-dom'
+import Header from '../header/Header'
 
 export default function Cart() {
     const params = useParams()
   return (
     <div className='cart'>
-        <div className='cartHeader'> 
-            <Navber/>
-            <div className='container'>
-                <div className='cartText'>
-                    <p>Save This Weekend</p>
-                    <h1>Cart</h1>
-                </div> 
-            </div>
-        </div>
+        <Header p={`Save This Weekend`} H={`Cart`} />
         <div className='container'>
             <div className='cartWrapper'>
                 <div className='cartLeft'>
