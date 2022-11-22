@@ -1,5 +1,6 @@
 import React from 'react'
 import img8 from '../../img/img-8.webp'
+import  Ratings  from '@mui/material/Rating'
 import './rating.css'
 export default function Rating() {
   return (
@@ -18,11 +19,7 @@ export default function Rating() {
                         Janae Randolph
                     </h4>
                     <div className='ratingDivRate'>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                            <span class="fa fa-star"></span>
+                    <Ratings style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="large" precision={0.5} readOnly />
                     </div>
                     </div>
                     

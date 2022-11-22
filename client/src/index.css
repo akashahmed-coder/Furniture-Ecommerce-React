@@ -18,3 +18,41 @@ html{
 }
 @import url('./components/mainpage/navber/navber.css');
 @import url('./components/mainpage/Home/home.css');
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) { 
+  /* HomePage */
+  .header-text h1 {
+    font-size: 5rem;
+}
+.home-sectinOneWrapper {
+  justify-content: space-around;
+  padding: 140px 32px 80px 75px;
+}
+ .img-sectionOne {
+  position: relative;
+  width: 377px;
+  height: 448px;
+  margin: 0 20px;
+}
+.details-sectionOne {
+  width: 400px;
+}
+.details-sectionOne h2 {
+  font-size: 2rem;
+}
+
+}
+ @media screen and  (min-width: 992px) { 
+
+}
+ @media screen and  (min-width: 768px) { 
+
+}
+ @media screen and  (min-width: 576px) { 
+
+}
+

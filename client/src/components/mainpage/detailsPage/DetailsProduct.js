@@ -3,7 +3,6 @@ import './detailsProduct.css'
 import detailImg from '../../../img/img-16.webp'
 import { Rating,Select , MenuItem , FormControl , InputLabel} from '@mui/material'
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
-import Navber from '../navber/Navber'
 import BottomDescriptionProduct from '../../BottomDesciptionProduct/BottomDescriptionProduct';
 import SideRatingCount from '../../SideRatingCount/SideRatingCount'
 import Footer from '../../footer/Footer'

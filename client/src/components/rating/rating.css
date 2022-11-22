@@ -1,7 +1,7 @@
 .rating{
     margin-top: 40px;
     width: 100%;
-    height: 80vh;
+    height: 600px;
     position: relative;
     background-image: url('../../img/img-9.1.jpg');
     background-position: center;
@@ -9,11 +9,11 @@
     background-size: cover;
 }
 .ratingDiv {
-    width: 800px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     position: absolute;
-    right: 400px;
-    top: 200px;
+    right: 86px;
+    top: 105px;
     background-color: white;
     padding: 20px;
     display: flex;
@@ -21,13 +21,13 @@
     justify-content: space-between;
 }
 .ratingDivImg{
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     border-radius: 50%;
 }
 .ratingDivComment{
-    font-size: 22px;
+    font-size: 15px;
     opacity: .5;
     text-align: justify;
 }
@@ -47,7 +47,7 @@
     margin-left: 20px;
 }
 .RatingUserName{
-    font-size: 2rem;
+    font-size: 20px;
 }
 .ratingComma{
     font-size: 5rem;

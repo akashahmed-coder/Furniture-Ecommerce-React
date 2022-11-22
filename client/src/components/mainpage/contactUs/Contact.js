@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Contact.css"
-import {LocationOn} from '@mui/icons-material'
+import {LocationOnOutlined,LocalPhoneOutlined  ,EmailOutlined,MeetingRoomOutlined} from '@mui/icons-material'
 import Header from '../header/Header'
 import Footer from '../../footer/Footer'
 
@@ -45,7 +45,7 @@ export default function Contact () {
                <div className='contactRigthInfo'>
                <h3 className='contactRightHeading'>Contact Us</h3>
                  <div className='contactRightIconAndItem'>
-                   <LocationOn className='contactRightIcon' fontSize='50px' />
+                   <LocationOnOutlined className='contactRightIcon' fontSize='50px' />
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
                       Adress
@@ -58,7 +58,7 @@ export default function Contact () {
                  </div>
 
                  <div className='contactRightIconAndItem'>
-                   <LocationOn className='contactRightIcon'/>
+                   <LocalPhoneOutlined className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
                       Phone
@@ -70,7 +70,7 @@ export default function Contact () {
                     
                  </div>
                  <div className='contactRightIconAndItem'>
-                   <LocationOn className='contactRightIcon'/>
+                   <EmailOutlined className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
                       Gmail
@@ -82,7 +82,7 @@ export default function Contact () {
                     
                  </div>
                  <div className='contactRightIconAndItem'>
-                   <LocationOn className='contactRightIcon'/>
+                   <MeetingRoomOutlined className='contactRightIcon'/>
                   <div className='contactRigthItem'>
                     <h4 className='contactRightTitle'>
                       Office
