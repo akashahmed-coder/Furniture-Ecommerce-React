@@ -1,5 +1,4 @@
 import React from 'react'
-import './Review.css'
 import { Rating } from '@mui/material';
 import RatingUserImg from '../../img/img-8.webp'
 
@@ -10,7 +9,7 @@ export default function Review() {
               <div className='perReviewTop'>
                  <div className='perRiviewUserAndTime'>
                     <div className='perReviewUserandRating'>
-                    <img className='perReviewUserImg' src={RatingUserImg} />
+                    <img className='perReviewUserImg' alt='' src={RatingUserImg} />
                      <div className='perRiviewUsernameAndRating'>
                      <h4 className='perRiviewUsername'>Janae Randolph</h4>
                       <div style={{display:"flex",alignItem:"center"}}>
@@ -32,7 +31,7 @@ export default function Review() {
               <div className='perReviewTop'>
                  <div className='perRiviewUserAndTime'>
                     <div className='perReviewUserandRating'>
-                    <img className='perReviewUserImg' src={RatingUserImg} />
+                    <img className='perReviewUserImg' alt='' src={RatingUserImg} />
                      <div className='perRiviewUsernameAndRating'>
                      <h4 className='perRiviewUsername'>Janae Randolph</h4>
                       <div style={{display:"flex",alignItem:"center"}}>
@@ -54,7 +53,7 @@ export default function Review() {
               <div className='perReviewTop'>
                  <div className='perRiviewUserAndTime'>
                     <div className='perReviewUserandRating'>
-                    <img className='perReviewUserImg' src={RatingUserImg} />
+                    <img className='perReviewUserImg' alt='' src={RatingUserImg} />
                      <div className='perRiviewUsernameAndRating'>
                      <h4 className='perRiviewUsername'>Janae Randolph</h4>
                       <div style={{display:"flex",alignItem:"center"}}>
@@ -76,7 +75,7 @@ export default function Review() {
               <div className='perReviewTop'>
                  <div className='perRiviewUserAndTime'>
                     <div className='perReviewUserandRating'>
-                    <img className='perReviewUserImg' src={RatingUserImg} />
+                    <img className='perReviewUserImg' alt='' src={RatingUserImg} />
                      <div className='perRiviewUsernameAndRating'>
                      <h4 className='perRiviewUsername'>Janae Randolph</h4>
                       <div style={{display:"flex",alignItem:"center"}}>

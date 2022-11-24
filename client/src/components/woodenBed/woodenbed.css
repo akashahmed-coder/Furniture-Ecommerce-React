@@ -12,16 +12,16 @@
 .woodenBedWrapper {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 80px 0 152px 0;
 }
-.woodenBedRight{
-    flex: 1;
-}
 
+.woodenBedRight{
+    width: 500px;
+}
 .woodenBedLeft{
-    flex: 1;
+    width: 600px;
 }
 
 .woodenBedText{
@@ -39,9 +39,6 @@
     color: white;
     background-color: orange;
     font-size: 20px;
-}
-.woodenBedRight{
-    width: 100%;
 }
 .woodenBedImg{
     width: 100%;

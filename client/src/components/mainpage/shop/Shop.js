@@ -1,5 +1,4 @@
 import React from 'react'
-import "./shop.css"
 import Rating from '../../rating/Rating'
 import Footer from '../../footer/Footer'
 import OurAllProduct from '../../OurAllProduct/OurAllProduct'

@@ -1,5 +1,4 @@
 import React from 'react'
-import './serviceAbout.css'
 import {LocalAtm, Receipt, RoomService} from '@mui/icons-material';
 export default function ServiceAbout() {
   return (

@@ -1,5 +1,4 @@
 import React from 'react'
-import "./shopSideBar.css"
 
 export default function ShopSideBar() {
   return (

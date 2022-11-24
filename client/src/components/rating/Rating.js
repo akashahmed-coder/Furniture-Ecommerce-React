@@ -1,7 +1,6 @@
 import React from 'react'
 import img8 from '../../img/img-8.webp'
 import  Ratings  from '@mui/material/Rating'
-import './rating.css'
 export default function Rating() {
   return (
     <div className='rating'>

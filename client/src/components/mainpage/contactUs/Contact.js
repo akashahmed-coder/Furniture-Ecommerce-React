@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Contact.css"
 import {LocationOnOutlined,LocalPhoneOutlined  ,EmailOutlined,MeetingRoomOutlined} from '@mui/icons-material'
 import Header from '../header/Header'
 import Footer from '../../footer/Footer'

@@ -1,12 +1,13 @@
 import React from 'react'
-import './ourSevices.css'
+import "./ourSevices.css"
+import {Link} from 'react-router-dom'
 import serviceImg1 from '../../img/img-15.webp'
 import serviceImg2 from '../../img/img-16.webp'
 import serviceImg3 from '../../img/img-17.webp'
 import serviceImg4 from '../../img/img-18.webp'
 import serviceImg5 from '../../img/img-19.webp'
 import serviceImg6 from '../../img/img-20.webp'
-import { Link } from 'react-router-dom'
+
 
 export default function OurServices() {
   return (

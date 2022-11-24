@@ -1,6 +1,4 @@
 import React from 'react'
-import './about.css'
-
 import SectionOne from '../../SectionOne/SectionOne'
 import WoodenBed from '../../woodenBed/WoodenBed'
 import SpecialOffer from '../../specialoffer/SpecialOffer'

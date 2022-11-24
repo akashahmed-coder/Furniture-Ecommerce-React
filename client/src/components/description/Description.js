@@ -1,5 +1,4 @@
 import React from 'react'
-import "./description.css"
 import {Check} from '@mui/icons-material';
 
 export default function Description() {

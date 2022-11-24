@@ -12,7 +12,6 @@ import img10 from '../../img/img-9.webp'
 import img11 from '../../img/img-14.webp'
 import img12 from '../../img/img-15.webp'
 import {Rating,Pagination, Select , MenuItem , FormControl , InputLabel} from '@mui/material'
-import './ourAllProduct.css'
 import { Link } from 'react-router-dom'
 
 

@@ -18,6 +18,33 @@ html{
 }
 @import url('./components/mainpage/navber/navber.css');
 @import url('./components/mainpage/Home/home.css');
+@import url('./components/mainpage/about/about.css');
+@import url('./components/mainpage/shop/shop.css');
+@import url('./components/mainpage/header/Header.css');
+@import url('./components/mainpage/detailsPage/detailsProduct.css');
+@import url('./components/mainpage/contactUs/Contact.css');
+@import url('./components/mainpage/blog/blog.css');
+@import url('./components/mainpage/cart/cart.css');
+
+
+@import url('./components/blogSidebar/blogSidebar.css');
+@import url('./components/BottomDesciptionProduct/bottomDescriptionProduct.css');
+@import url('./components/description/description.css');
+@import url('./components/footer/footer.css');
+@import url('./components/OurAllBlog/ourAllBlog.css');
+@import url('./components/ourProduct/OurProducts.css');
+@import url('./components/OurAllProduct/ourAllProduct.css');
+/* @import url('./components/ourServices/OurServices.js'); */
+@import url('./components/rating/rating.css');
+@import url('./components/review/Review.css');
+@import url('./components/satisfications/satisfications.css');
+@import url('./components/serviceAbout/serviceAbout.css');
+@import url('./components/shopSideBar/shopSideBar.css');
+@import url('./components/SideRatingCount/SideRatingCount.css');
+@import url('./components/specialoffer/specialOffer.css');
+@import url('./components/submiteReview/submiteReview.css');
+@import url('./components/trendingFurniture/trendingFurniture.css');
+@import url('./components/woodenBed/woodenbed.css');
 
 
 
@@ -43,6 +70,20 @@ html{
 }
 .details-sectionOne h2 {
   font-size: 2rem;
+}
+.tredingWrapper {
+  padding: 100px 74px;
+}
+.trendingTitle {
+  font-size: 2rem;
+}
+.trendingText{
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.ourProductsWrapper {
+  padding: 100px 60px;
 }
 
 }

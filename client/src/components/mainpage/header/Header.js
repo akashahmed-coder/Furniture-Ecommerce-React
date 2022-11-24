@@ -1,5 +1,4 @@
 import React from 'react'
-import "./Header.css"
 import Navber from '../navber/Navber'
 
  const Header = ({p,H}) => {

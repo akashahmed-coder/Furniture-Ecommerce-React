@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "./bottomDescriptionProduct.css"
 import Description from '../description/Description';
 import Satisfications from '../satisfications/Satisfications';
 import Review from '../review/Review';

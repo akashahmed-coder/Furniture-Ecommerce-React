@@ -1,5 +1,4 @@
 import React from 'react'
-import './submiteReview.css'
 import { Rating } from '@mui/material';
 
 export default function SubmiteReview() {

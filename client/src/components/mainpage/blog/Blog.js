@@ -1,5 +1,4 @@
 import React from 'react'
-import "./blog.css"
 import Header from "../header/Header"
 import Rating from '../../rating/Rating'
 import Footer from '../../footer/Footer'

@@ -1,6 +1,4 @@
 import React from 'react'
-import "./blogSidebar.css"
-
 export default function BlogSideBar() {
   return (
     <div className='blogSideBar'>

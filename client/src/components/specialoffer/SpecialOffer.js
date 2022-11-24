@@ -1,5 +1,4 @@
 import React from 'react'
-import './specialOffer.css'
 
 export default function SpecialOffer() {
   return (

@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactCardSlider from 'react-card-slider-component';
-import "./trendingFurniture.css"
 
 export default function TrendingFurniture() {
     const slides = [

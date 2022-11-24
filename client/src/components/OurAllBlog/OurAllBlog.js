@@ -8,7 +8,6 @@ import img6 from '../../img/img-31.webp'
 import img7 from '../../img/img-30.webp'
 import img8 from '../../img/img-27.webp'
 import {Pagination} from '@mui/material'
-import './ourAllBlog.css'
 import { Link } from 'react-router-dom'
 
 

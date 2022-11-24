@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './cart.css'
 import Footer from '../../footer/Footer'
 import { CartOrderSummery } from './CartOrderSummery'
 import CartCustomerInformation from './CartCustomerInformation'

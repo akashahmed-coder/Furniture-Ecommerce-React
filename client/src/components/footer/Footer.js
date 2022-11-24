@@ -1,5 +1,4 @@
 import React from 'react'
-import './footer.css'
 import logo from '../../img/logo-1.webp'
 import { Link } from 'react-router-dom'
 export default function Footer() {

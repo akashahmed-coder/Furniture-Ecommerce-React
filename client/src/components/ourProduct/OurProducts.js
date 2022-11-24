@@ -1,5 +1,4 @@
 import React from 'react'
-import './OurProducts.css'
 import img1 from '../../img/img-1.webp'
 import img2 from '../../img/img-2.webp'
 import img3 from '../../img/img-3.webp'
