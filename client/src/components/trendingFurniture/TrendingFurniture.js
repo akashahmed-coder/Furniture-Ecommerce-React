@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactCardSlider from 'react-card-slider-component';
+import ReactSlider from '../reactSlider/ReactSlider';
 
 export default function TrendingFurniture() {
     const slides = [
@@ -24,7 +24,7 @@ export default function TrendingFurniture() {
                 </span>
             </div>
             <div className='trendingRight'>
-                <ReactCardSlider slides={slides}/>
+                <ReactSlider/>
             </div>
 
        </div>
