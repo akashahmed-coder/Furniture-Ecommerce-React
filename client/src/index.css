@@ -45,6 +45,7 @@ html{
 @import url('./components/submiteReview/submiteReview.css');
 @import url('./components/trendingFurniture/trendingFurniture.css');
 @import url('./components/woodenBed/woodenbed.css');
+@import url('./components/reactSlider/ReactSlider.css');
 
 
 
@@ -85,10 +86,51 @@ html{
 .ourProductsWrapper {
   padding: 100px 60px;
 }
-
+.woodenBedWrapper {
+  padding: 80px 126px 152px 35px;
 }
- @media screen and  (min-width: 992px) { 
-
+.woodenBedTitle {
+  font-size: 2rem;
+}
+.specialOfferWrapper {
+  padding: 80px 59px;
+}
+.footerWrapper {
+  padding: 100px 64px;
+}
+.footerDivListItem {
+  font-size: 16px;
+}
+}
+ @media screen and  (max-width: 992px) { 
+  .header-text h1 {
+    font-size: 4rem;
+}
+.header-text p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.logo{
+  width: 200px;
+}
+.logo img{
+  width: 100%;
+}
+.details-sectionOne h2 {
+  font-size: 1.5rem;
+}
+.details-sectionOne-title {
+  font-size: 14px;
+}
+.trendingTitle {
+  font-size: 1.5rem;
+}
+.trendingText {
+  font-size: 14px;
+}
+.trendingLeft {
+  margin-right: 80px;
+ }
 }
  @media screen and  (min-width: 768px) { 
 

@@ -1,6 +1,7 @@
 .homeHeader{
     width: 100%;
     height: 100vh;
+    min-height: 684px;
     background: url("../../../img/img-2.webp");
     background-repeat: no-repeat;
     background-size: cover;

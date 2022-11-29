@@ -12,78 +12,151 @@ import img9 from '../../img/img-9.1.webp'
 import img10 from '../../img/img-9.webp'
 import img11 from '../../img/img-14.webp'
 import img12 from '../../img/img-15.webp'
-import {Rating,Pagination, Select , MenuItem , FormControl , InputLabel} from '@mui/material'
+import {Rating} from '@mui/material'
 import { Link } from 'react-router-dom'
 
-export default class ReactSlider extends Component {
-  constructor(props) {
-    super(props);
-    this.play = this.play.bind(this);
-    this.pause = this.pause.bind(this);
-  }
-  play() {
-    this.slider.slickPlay();
-  }
-  pause() {
-    this.slider.slickPause();
-  }
+export default class Responsive extends Component {
+ 
   render() {
-    const settings = {
-      dots: true,
+    var settings = {
       infinite: true,
+      speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 2,
+      initialSlide: 0,
       autoplay: true,
-      autoplaySpeed: 2000
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
-      <div>
-        <h2>Auto Play & Pause with buttons</h2>
-        <Slider ref={slider => (this.slider = slider)} {...settings}>
-          <div>
-          <div className='ourProductsCard'>
-                          <div className='ourProductscardTop'>
-                             <Link to='/details/product'>
-                              <img src={img3} alt='' className='ourProductsCardImg'/>
-                              </Link>
-                              <span className='ourProductsCardTag'>New</span>
-                          </div>
-                          <div className='ourProductscardBottom'>
-                          <Rating style={{marginTop:"10px"}}name="half-rating" defaultValue={2.5} precision={0.5} readOnly />
-                          <h4 className='ourProductsCardbottomTitle'>Single Safa</h4>
-                          <span className='ourProductsCardbottomText'>Lorem ipsum has been</span>
-                          <div className='ourProductsCardPriceAndButton'>
-                                  <span className='ourProductsCardPrice'>$120.00</span>
-                                  <Link to="/cart" className='ourProductsCardAndButton'>Add to Cart</Link>
-                          </div>
-                          </div>
-                      </div>
+      <>
+        <Slider {...settings}>
+          <div className="sliderCard" style={{marginRight:"10px"}}>
+            <img src={img1} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
           </div>
-          <div>
-            <h3>2</h3>
+          <div className="sliderCard">
+            <img src={img2} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
           </div>
-          <div>
-            <h3>3</h3>
+          <div className="sliderCard">
+            <img src={img3} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
           </div>
-          <div>
-            <h3>4</h3>
+          <div className="sliderCard">
+            <img src={img4} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
           </div>
-          <div>
-            <h3>5</h3>
+          <div className="sliderCard">
+            <img src={img5} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
           </div>
-          <div>
-            <h3>6</h3>
+          <div className="sliderCard">
+            <img src={img6} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+          </div>
+          <div className="sliderCard">
+            <img src={img7} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+          </div>
+          <div className="sliderCard">
+            <img src={img8} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+          </div>
+          <div className="sliderCard">
+            <img src={img9} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+            
+          </div>
+          <div className="sliderCard">
+            <img src={img10} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+            
+          </div>
+          <div className="sliderCard">
+            <img src={img11} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+            
+          </div>
+          <div className="sliderCard">
+            <img src={img12} alt="" className="SliderCardImg"/>
+            <div className="sliderText">
+              <h3>Soft Sofa</h3>
+              <p>What is lorem ipsum</p>
+              <Rating style={{margin:"10px 0px"}}  name="half-rating" defaultValue={3.5} size="small" precision={0.5} readOnly />
+            </div>
+            
           </div>
         </Slider>
-        <div style={{ textAlign: "center" }}>
-          <button className="button" onClick={this.play}>
-            Play
-          </button>
-          <button className="button" onClick={this.pause}>
-            Pause
-          </button>
-        </div>
-      </div>
+      </>
     );
   }
 }
