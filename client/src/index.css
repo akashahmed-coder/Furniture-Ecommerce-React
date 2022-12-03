@@ -84,7 +84,7 @@ html{
 }
 
 .ourProductsWrapper {
-  padding: 100px 60px;
+  padding: 100px 10px;
 }
 .woodenBedWrapper {
   padding: 80px 126px 152px 35px;
@@ -103,6 +103,7 @@ html{
 }
 }
  @media screen and  (max-width: 992px) { 
+  /* HomePage */
   .header-text h1 {
     font-size: 4rem;
 }
@@ -128,12 +129,60 @@ html{
 .trendingText {
   font-size: 14px;
 }
-.trendingLeft {
-  margin-right: 80px;
- }
+ .footerWrapper {
+  padding: 100px 35px;
 }
- @media screen and  (min-width: 768px) { 
-
+.ourProductsTitle {
+  font-size: 2.5rem;
+}
+.woodenBedWrapper{
+  flex-direction: column;
+} 
+.woodenBedRight{
+  width: 450px;
+} 
+.woodenBedLeft{
+  width: 450px;
+}
+}
+ @media screen and  (max-width: 768px) { 
+  /* HomePage */
+  .home-sectinOneWrapper {
+    flex-flow: wrap;
+  }
+  .details-sectionOne {
+    margin-top: 20px;
+}
+.details-sectionOne-miniTitle {
+  font-size: 22px;
+}
+.tredingWrapper{
+  flex-wrap: wrap;
+}
+.trendingRight{
+  width: 100%;
+  flex: none;
+  
+}
+.trendingLeft{
+ width: 100%;
+ flex: none;
+}
+.ourProductsTitle {
+  font-size: 2rem;
+}
+.ourPorductsButton {
+  font-size: 16px;
+}
+.woodenBedRight{
+  width: 400px;
+} 
+.woodenBedLeft{
+  width: 400px;
+}
+.woodenBedWrapper {
+  padding: 0px 60px 152px 0px;
+}
 }
  @media screen and  (min-width: 576px) { 
 

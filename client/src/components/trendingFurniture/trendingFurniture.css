@@ -1,19 +1,14 @@
-.trendingFurniture{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
 .tredingWrapper{
     padding: 100px 0;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     position: relative;
 }
 .trendingRight{
-    flex: 1;
+   width: 100%;
     overflow-x: hidden;
     position: relative;
     box-shadow: -62px 59px 0px -12px rgba(53,163,163,1);
@@ -21,12 +16,12 @@
     -moz-box-shadow: -62px 59px 0px -12px rgba(53,163,163,1);
 }
 .trendingLeft {
-    flex: 1;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 50px;
+    margin-bottom: 20px;
 }
 .trendingTag{
     color: orange;
